@@ -29,8 +29,8 @@
 *	Modification History:
 *
 *		$Log$
-*		Revision 1.2  1995/11/16 17:14:39  houghton
-*		Change Default settings.
+*		Revision 1.3  1999/05/12 18:59:14  houghton
+*		Cleanup.
 *		
  * Revision 1.1  1991/12/19  01:31:56  paulh
  * Initial revision

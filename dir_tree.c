@@ -29,9 +29,12 @@
 *	Modification History:
 *
 *		$Log$
-*		Revision 1.1  1991/12/19 01:31:55  paulh
-*		Initial revision
+*		Revision 1.2  1999/05/12 18:59:11  houghton
+*		Cleanup.
 *		
+ * Revision 1.1  1991/12/19  01:31:55  paulh
+ * Initial revision
+ *
 *
 *
 *********************************************************************/
