@@ -1,10 +1,5 @@
 #
-# Make rules for simon project
-#
-#
-#	This makefile should be included in all c/sql source makefiles
-#
-# Setup for use with Sybase DBLib
+# Make rules for dtree
 #
 # 11/30/91
 #
