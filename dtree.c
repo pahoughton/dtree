@@ -29,9 +29,12 @@
 *	Modification History:
 *
 *		$Log$
-*		Revision 1.1  1991/12/19 01:31:56  paulh
-*		Initial revision
+*		Revision 1.2  1995/11/16 17:14:39  houghton
+*		Change Default settings.
 *		
+ * Revision 1.1  1991/12/19  01:31:56  paulh
+ * Initial revision
+ *
 *
 *********************************************************************/
 
@@ -64,11 +67,11 @@ strcpy(dir_name,".");
 
 	/* Default Log Options */
 log_debug(OFF);
-log_display(ON);
+log_screen(ON);
 log_file(OFF);
 
 sprintf(log_fn,"%s.%s","error",argv[0]);
-log_name(log_fn);
+log_filename(log_fn);
 
 	/* process program options and bp_begin/end */
 	
@@ -106,16 +109,16 @@ for(optind = 1; optind < argc; optind++)
 					break;
 					
 				case 'S':
-					log_display(ON);
+					log_screen(ON);
 					break;
 				
 				case 's':
-					log_display(OFF);
+					log_screen(OFF);
 					break;
 					
 				case 'l':
 					optind++;
-					log_name(argv[optind]);
+					log_filename(argv[optind]);
 					break;
 									
 					
