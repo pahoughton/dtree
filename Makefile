@@ -19,6 +19,7 @@
 #   $Id$
 # 
 
+CFLAGS		= # -Wall
 CPPFLAGS	= -I.
 
 C_SOURCES	=	\
@@ -28,6 +29,11 @@ C_SOURCES	=	\
 
 OBJECTS		= $(C_SOURCES:.c=.o)
 
+default: dtree
+
+clean:
+	rm -f dtree $(OBJECTS)
+
 dtree: $(OBJECTS)
 
 
@@ -35,6 +41,9 @@ dtree: $(OBJECTS)
 
 #
 # $Log$
+# Revision 1.4  1999/05/12 20:14:01  houghton
+# Cleanup.
+#
 # Revision 1.3  1999/05/12 18:59:04  houghton
 # Complete Rework.
 #
