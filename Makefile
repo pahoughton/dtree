@@ -1,23 +1,9 @@
 #
 # Title:        Makefile
 # Project:	dtree
-# Desc:
-# 
-#   
-# 
-# Notes:
-# 
-# Author:	Paul A. Houghton - (paul.houghton@wcom.com)
+# Author:	Paul A. Houghton - (paul4hough@gmail.com)
 # Created:	05/12/99 12:55
 #
-# Revision History: (See end of file for Revision Log)
-#
-#   Last Mod By:    $Author$
-#   Last Mod:	    $Date$
-#   Version:	    $Revision$
-#
-#   $Id$
-# 
 
 CFLAGS		= # -Wall
 CPPFLAGS	= -I.
@@ -36,19 +22,8 @@ clean:
 
 dtree: $(OBJECTS)
 
+check: dtree
+	dtree
 
-
-
-#
-# $Log$
-# Revision 1.4  1999/05/12 20:14:01  houghton
-# Cleanup.
-#
-# Revision 1.3  1999/05/12 18:59:04  houghton
-# Complete Rework.
-#
-#
-
-# Local Variables:
-# mode:makefile
-# End:
+install:
+	install dtree /usr/local/bin
