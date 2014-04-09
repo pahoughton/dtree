@@ -25,7 +25,7 @@
  *
  * Notes:
  *
- * Author:	Paul A. Houghton - (paul.houghton@wcom.com)
+ * Author:	Paul A. Houghton - (paul4hough@gmail.com)
  * Created:	05/12/99 14:07
  *
  * Revision History: (See end of file for Revision Log)

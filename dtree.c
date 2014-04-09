@@ -8,7 +8,7 @@
 
    Notes:
 
-   Author:      Paul A. Houghton - (paul.houghton@wcom.com)
+   Author:      Paul A. Houghton - (paul4hough@gmail.com)
    Created:     12/04/1991
 
    Revision History: (See end of file for Revision Log)
