@@ -23,7 +23,7 @@ clean:
 dtree: $(OBJECTS)
 
 check: dtree
-	dtree
+	./dtree
 
 install:
 	install dtree /usr/local/bin
